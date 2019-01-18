@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="#f2f0f0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pihash.muslimprime.Ramadan"
+    tools:showIn="@layout/activity_ramadan"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:layout_marginTop="3dp"
+            android:textSize="20sp"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:background="@drawable/design"
+            android:textColor="@color/mat_purple_900"
+            android:text="হজ্জ নিয়মাবলী" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:layout_marginTop="3dp"
+            android:textSize="20sp"
+            android:gravity="center|left"
+            android:textStyle="normal"
+            android:background="@drawable/design"
+            android:textColor="@color/black_semi_transparent"
+            android:text="বিসমিল্লাহির রাহমানির রাহীম
+হজ্জ ইসলামের পঞ্চস্তম্বের একটি জরুরী স্তম্ব। সামর্থবানদের ওপর হজ্জ আদায় করা ফরজ। কেউ যদি হজ্জ ফরজ হওয়ার বিষয় মানতে অস্বীকার করে, সে কাফির হয়ে যাবে। হজ্জের নির্দেশ দিয়ে আল্লাহ তালা পবিত্র কুরআনে ইর্শাদ করেছেন, “বাইতুল্লাহ শরীফে পৌছিতে সামর্থবান লোকদের উপর আল্লাহর উদ্দেশ্য বায়তুল্লাহর হজ্জ আদায় করা কর্তব্য। কেউ যদি তা মানতে অস্বীকার করে, তাহলে (সে জেনে নিক) আল্লাহ সৃষ্টির প্রতি মুখাপেক্ষী নন।“(সুরা আল-ইমরান, আয়াতঃ ৯৭) তাই হজ্জ একটি গুরুত্তপুর্ন ইবাদত, যা আল্লাহর ঘর কাবাশরীফকে কেন্দ্র করে আরবী বছরের শেষ মাস অর্থাৎ জিলহজ্জ মাসে অনুস্টিত হয়। ইহা একটি আর্থিক ও শারীরিক ইবাদত। এ কারনে একমাত্র ধনী ও সুস্থ-সবল পুরুষ-মহিলাদের জন্য জীবনে একবার হজ্জ করা ফরজ।
+তবে মহিলাদের সাথে মাহরাম (বিবাহ হারাম এমন পুরুষ) থাকা আবশ্যক।
+হজ্জ আদায়কারীর জন্য হজ্জের প্রয়োজনীয় ফরজ, ওয়াজিব সহ যাবতীয় মাসাআলা মাসায়িল জেনে নেয়া একান্ত প্রয়োজন। ইহা সামনে রেখেই আমার এই ক্ষুদ্র প্রয়াস। বিস্তারিত জানার জন্য বিজ্ঞ উলামাদের শরনাপন্ন হওয়া জরুরী। তাছাড়া হজ্জের মত গুরুত্বপুর্ন সফর কোন যোগ্য আলেমের সাথে করা প্রয়োজন।" />
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="হাদিসঃ" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text="নবীয়ে কারীম (সঃ) ইরশাদ করেন, অনিবার্য প্রয়োজন অথবা অত্যাচারী শাসক কিংবা কঠিন রোগ যদি হজ্জ পালন করতে কাউকে বিরত না রাখে আর সে হজ্জ পালন না করেই মৃত্যুবরন করে, তার মৃত্যু যেন ইয়াহুদ নাসারার মৃত্যু। (দারিমী)
+হুজুরে পাক (সঃ) আরো বলেন যে ব্যক্তি হজ্জ করে, এবং ইহাতে বাজে কথা বলেনা আর কোন গুনাহের কাজ করেনা, সে নিজের গুনাহ থেকে এমন ভাবে মুক্ত ও পবিত্র হয়ে ফিরে, যেন তার মা তাকে এখনই প্রসব করেছে। (বুখারী/মুসলিম)"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="হজ্জের ফরয তিনটি" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text="১. হজ্জের নিয়ত করত: তালবিয়া পড়া , একে ইহরাম বলা হয়।\n২. ৯ই জিল হজ্জের সূর্য হেলার পর থেকে ১০ই জিল হজ্জের সুবেহ সাদেক পর্যন্ত আরাফায় অবস্থান করা।\n৩. তাওয়াফে জিয়ারত, কিন্তু আরাফায়ে অবস্থানের পূর্বে যে তাওয়াফ করা হয় তা ফরয বলে  গন্য হবেনা।"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="হজ্জের ওয়াজিব সমুহ" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text="*মুযদালিফায় অবস্থান করা।\n*সাফা মারওয়ায় সায়ী করা।\n*রমী বা পাথর নিক্ষেপ করা\n*মাথার চুল কাটা বা ছাটা।\n*মিকাদের বাইরের লোকদের জন্য বিদায়ী তাওয়াফ।"/>
+                    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="হজ্জের সুন্নতসমুহ:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text="১. জিলহজ্জের ৮ তারিখে মিনার উদ্দেশ্যে গমন করা\n২.  সূর্য উদীত হবার পর আরাফার উদ্দেশ্যে রওয়ানা হওয়া এবং সেখানে যোহর , আসর , মাগরিব , এশার ও ফযর পাঁচ ওয়াক্ত নামাজ পড়া\n৩. ৯ই জিল হজ্জ সূর্য উদয়ের পর আরাফায় উদ্দেশ্যে রওয়ানা হওয়া\n৪. আরাফার ময়দানে গোসল করা\n৫. মিনায় অবস্থানকালীন ১0.১১.১২ তারিখ রাত্রগুলো মিনায় অবস্থান করা\n৬. আরাফা প্রত্যাবর্তন করে মুযদালিফায় রাত্রি যাপন করা\n৭. আরাফা থেকে সূর্য অস্ত যাবার পর হজ্জের ইমামের রওয়ানার পর রওয়ানা দেওয়া "/>
+
+                     </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:gravity="center|left"
+                android:textStyle="bold"
+                android:background="@drawable/design"
+                android:textColor="@color/mat_purple_900"
+                android:text="ইহরাম কি ও ইহরাম অবস্থায় কি কি বর্জনীয়" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="১.মীকাতে পৌঁছে পরিস্কার পরিচ্ছন্নতা অর্জন করত: গোসল করতে হবে।\n২.একটি চাদর লুংগীর মত করে পড়বে ওপর একটি চাদর গায়ে জড়িয়ে নিবে।\n৩. হজ্জ অথবা উমরার সময় নিয়ত করে তালবিয়া পড়ে নিলেই ইহরাম বাধা হয়\n৪. মহিলাদের ইহরাম পুরুষদের ন্যায় এক ।\n৫.তবে তারা ইহরাম অবস্থায় স্বাভাবিক সেলাইকৃত কাপড় পড়বে।\n৬.নিয়তের পূর্বে গোসল ও দু রাকাত নামায পড়া সুন্নত।"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="বর্জনীয:"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="১)পুরুষের জন্য সেলাইকৃত কাপড় পরিধান\n২)পুরুষের জন্য সেলাইকৃত কাপড় পরিধান\n৩)শরীর হতে পশম পরিস্কার করা,নখ কাটা\n৪)স্থুল প্রানী শিকার করা\n৪)স্বামী স্ত্রীর বিশেষ সম্পর্ক\n৫)ইহরাম বাঁধার সময় তালবিয়া পড়া শর্ত অর্থাৎ\n৬) লাব্বাইকা আল্লাহুমা লাব্বাইকা , লাব্বাইকা লা শারিকা লাকা লাব্বাইকা ইন্নাল হামদা ওয়াল নিয়ামাতা লাকা , ওয়াল মূলকা লা শরীকা লাক\n"/>
+                      </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="মক্কায় প্রবেশের দোয়া:"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text="আল্লাহুমমা বারিক লাকা ফি হা  এবং\nরাব্বিগ ফিরলী জুনুবী ওয়াফ তাহলী আব ওয়াবা রাহমাতিক\nকাবার ওপর নজর পরলে তিন বার আল্লাহু আকবর লা ইলাহা ইল্লাল্লাহু ও দরুদ পড়বে\n"/>
+                    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.listapplication.Edetail"
+    tools:showIn="@layout/activity_nishiddo">
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#336600"
+                android:layout_margin="10sp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:text="নামাযের নিষিদ্ধ সময়" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/round"
+                android:layout_margin="10sp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/arabic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#061807"
+                    android:textSize="22sp"
+                    android:padding="10sp"
+
+                    android:text="সূর্যোদয়ের সময়, ঠিক দ্বিপ্রহর এবং সূর্যাস্তের সময় যে কোন নামায পড়া, সিজদার তেলাওয়াত করা জায়েয নাই। যদি আছরের নামায না পড়িয়া থাকে তবে শুধু মাত্র ঐ দিনকার আছরের নামায সূর্যাস্তের সময় পড়িতে পারিবে । তবে উহাও মাকরূহ তাহারীমির সাথে আদায় হইবে ।" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:background="#0b66b1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/bangla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:text="সুন্নত ও নফল নামাযের নিষিদ্ধ সময়" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/round"
+                android:layout_margin="10sp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/uccharon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#061807"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:text="১) ফজরের সময় হইলে ফজরের সুন্নত দুই রাকাআত ছাড়া অন্য কোন সুন্নত বা নফল পড়া।\n২) সূর্যাস্তের পর মাগরিবের নামায পড়ার পূর্ব পর্যন্ত ।\n৩) উভয় ঈদের নামায পড়া পর্যন্ত। এই সমস্ত সময় নামায পড়া মাকরূহ । কাযা, জানাযা নামায, সিজদায়ে তেলাওয়াত করা জায়েয আছে ।\n৪) ফরয নামাযের ইক্বামত বা জামাতের সময় ও সুন্নত বা নফল পড়া মাকরূহ ।\n৫) নামাযের সময় সংকীর্ণ হইলে ওয়াক্তিয়া ফরয ব্যতীত অন্য যে কোন নামায পড়া মাকরূহ । জুমআর খুৎবার জন্য ইমাম মিম্বরে দাঁড়াইলেই সুন্নত বা নফল পড়া মাকরূহ ।\n" />
+            </LinearLayout>
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="wrap_content" -->
+            <!--             android:layout_gravity="center" -->
+            <!--             android:gravity="center" -->
+            <!--             android:layout_margin="10sp" -->
+            <!--             android:background="#061807" -->
+            <!--             android:orientation="vertical" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/ref" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:textColor="#0074cc" -->
+            <!--                 android:padding="10sp" -->
+            <!--                 android:text="Reff Text" /> -->
+            <!--         </LinearLayout> -->
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

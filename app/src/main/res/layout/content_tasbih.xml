@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="10dip"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.listapplication.Tasbih"
+    tools:showIn="@layout/activity_tasbih">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+
+            android:layout_gravity="center_horizontal" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#4FC3F7"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Click To Play সূরা আল ফাতিহা"
+                    android:textSize="20dp"
+                    android:background="#90A4AE"
+
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/button12" />
+
+
+            </LinearLayout>
+        </ScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dip"
+
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#055cfd"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="সূরা আল ফাতিহা"
+                    android:background="#E0F7FA"
+                    android:textSize="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:id="@+id/zx" />
+
+            </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:background="#FFF3E0"
+                    android:text="بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ\nالْحَمْدُ للّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمـنِ الرَّحِيمِ\nمَـالِكِ يَوْمِ الدِّينِ\nإِيَّاك نَعْبُدُ وإِيَّاكَ نَسْتَعِينُ\n اهدِنَــــا الصِّرَاطَ المُستَقِيمَ\nصِرَاطَ الَّذِينَ أَنعَمتَ عَلَيهِمْ غَيرِ المَغضُوبِ عَلَيهِمْ وَلاَ الضَّالِّينَ\n"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:gravity="right"
+                    android:layout_marginTop="2dip"
+                    android:id="@+id/textView3d" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#DCE775"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="বাংলা উচ্চারণ "
+                    android:background="#E0F7FA"
+                    android:textSize="30dp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:id="@+id/textVie3" />
+            </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="১)বিসমিল্লাহির রাহমা-নির রাহি-ম।\n২)আলহামদু লিল্লাহি রাব্বিল আ’-লামি-ন।\n৩) আররাহমা-নির রাহি-ম \n৪)মা-লিকি ইয়াওমিদ্দি-ন\n৫)ইয়্যা-কা না’বুদু ওয়া ইয়্যা-কা নাসতাই’-ন\n৬)ইহদিনাস সিরাতা’ল মুসতাকি’-ম\n৭)সিরাতা’ল্লা যি-না আনআ’মতা আ’লাইহিম গা’ইরিল মাগ’দু’বি আ’লাইহিম ওয়ালা দ্দ—ল্লি-ন।"
+                    android:background="#FFF3E0"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center|left"
+
+                    android:id="@+id/texew3" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#4FC3F7"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="বাংলা অনুবাদ"
+                    android:background="#E0F7FA"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/textView43" />
+
+            </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="১)শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।\n২)যাবতীয় প্রশংসা আল্লাহ তা' আলার যিনি সকল সৃষ্টি জগতের পালনকর্তা।\n৩)যিনি নিতান্ত মেহেরবান ও দয়ালু।\n৪)যিনি বিচার দিনের মালিক।\n৫)আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।\n৬)আমাদেরকে সরল পথ দেখাও,\n৭)সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।"
+                    android:background="#FFF3E0"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:gravity="center|left"
+                    android:layout_marginTop="2dip"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ইসলাম"
+                    android:background="@android:color/holo_purple"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:id="@+id/textView1" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

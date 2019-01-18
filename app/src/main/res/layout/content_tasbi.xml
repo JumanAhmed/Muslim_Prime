@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pihash.muslimprime.TasbiActivity"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/activity_tasbi">
+
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/mat_light_green_500"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:id="@+id/icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_arrow_back_white_48dp">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/lay2"
+        android:layout_below="@+id/lay1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="250dp"
+           android:layout_height="250dp"
+           android:background="@drawable/listbacg"
+           android:src="@drawable/ic_launcher"
+           android:text="New Button"
+           android:id="@+id/but1" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <com.pihash.flo.FloatingActionButton
+            android:id="@+id/but2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_add"
+            fab:fab_size="normal"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            fab:fab_colorNormal="#F50057"
+            fab:fab_colorPressed="#E8004A"
+            fab:fab_colorRipple="#C20024"
+            fab:fab_shadowColor="#000"
+            fab:fab_elevationCompat="6dp"
+            />
+
+
+        <com.pihash.flo.FloatingActionButton
+            android:id="@+id/but3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_refresh_white"
+            fab:fab_size="normal"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            fab:fab_colorNormal="#F50057"
+            fab:fab_colorPressed="#E8004A"
+            fab:fab_colorRipple="#C20024"
+            fab:fab_shadowColor="#000"
+            fab:fab_elevationCompat="6dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

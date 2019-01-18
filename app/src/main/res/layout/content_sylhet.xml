@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.listapplication.Sylhet"
+    tools:showIn="@layout/activity_sylhet">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সিলেট এর নামযের সময়  "
+                android:background="#E0F7FA"
+                android:textSize="30dp"
+                android:layout_marginTop="2dip"
+
+                android:gravity="center"
+                android:id="@+id/textViee3" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="22dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Sahri End" />
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:textSize="22dp"
+
+            android:textColor="@android:color/holo_green_light"
+            android:text="Fazar Start" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:textSize="22dp"
+
+            android:textColor="@android:color/holo_green_light"
+            android:text="Sunrise" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:textSize="22dp"
+
+            android:textColor="@android:color/holo_green_light"
+            android:text="Juhar Start" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="22dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Asar Start" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Magrib Start" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center|left"
+            android:background="@drawable/design"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Esha Start" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

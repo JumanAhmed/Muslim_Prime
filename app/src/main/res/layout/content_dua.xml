@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="#f2f0f0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pihash.muslimprime.Dua"
+    tools:showIn="@layout/activity_dua"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/mat_light_blue_a700"
+                    android:textColor="@color/colorPrimary"
+                    android:text="প্রথম দিন :" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="৮ই জিল হজ্জ সূর্য উদয়ের পর ইহরাম অবস্থায় মিনায় রওয়ানা হবে\n৮ তারিখ যোহর থেকে  ৯তারিখ সকাল পর্যন্ত মিনায় অবস্থান করবে\n৯ তারিখ ফজর পর্যন্ত পাঁচ ওয়াক্ত নামাজ মিনায় পড়া সুন্নত\n"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/mat_light_blue_a700"
+                    android:textColor="@color/colorPrimary"
+                    android:text="হজ্জের দ্বিতীয় দিন" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="*৯ তারিখ , এই দিন হজ্জের বড় রুকন\n*উকুফে আরাফা বা আরাফায় অবস্থান করতে হবে\n*৯ তারিখ সূর্য উদয়ের পর আরাফায় উদ্দেশ্যে রওয়ানা (আরাফা মিনা থেকে ছয় মাইল দূরে)\n*জাবালে রহমত আরাফায় অবস্থিত একটি পাহার\n*ইহা দৃষ্টি পরলে তাসবীহ, তাহলীল, তাকবীর এবং মনে যা চায় দোয়া বলবে\n*৯ তারিখ সূর্য হেলে যাবার পর থেকে সুবেহ সাদেক পর্যন্ত কিছু সময়    আরাফায় অবস্থান করবে\n*গোসল অবস্থায় আরাফায় অবস্থান করা মুস্তাহাব\n*যোহর ও আসরের নামাজ হজ্জের আমীরের সাথে এক্তেদা করে এক সাথে পড়া\n*কিন্তু যদি হজ্জে আমীরের জামাত না পাওয়া যায় তাহলে স্ব তাবুতে এই দু রাকাত নামাজ আলাদা পরবে\n"/>
+                <TextView
+                    android:id="@+id/sss4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="আরাফায় অবস্থানের মসনুন পদ্দতি:" />
+                <TextView
+                    android:id="@+id/s3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="*জাবালে রহমতের নিকট যেখানে নবী সঃ অবস্থান করেছেন সেখানে অবস্থান করা উত্তম \n*জাবালে রহমতের নিকট না পারলে যে কোন জায়গায় করা যাবে\n*শ্রেয় হোল কেবলা মুখী হয়ে দাড়িয়ে সন্ধ্যা পর্যন্ত অবস্থান করা এবং হাত তুলে দোয়া করা\n*যতক্ষণ দাঁড়ানো সম্ভব দাড়িয়ে থাকবে নইলে বসবে\n*দাঁড়ানো ও বসার বেলায় বিরতি করা যাবে\n*পুরো সময় বিনয় নম্রতা,কাকুতি,মিনতির সাথে যিকির , তেলাওয়াত , দরুদ ও ইস্তেগফার করা\n*কিছুক্ষণ পর পর তালবিয়া পাঠ করা \n*দীনি- দুনিয়াবী উদ্দেশ্যে নিজের জন্য , পরিবার ও সন্তান , মা বাবা , আত্মীয়     স্বজন ও মুসলিম উম্মার জন্য বিশেষভাবে দোয়া করা ।\n"/>
+                <TextView
+                    android:id="@+id/ss4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="আরাফার দোয়া সমুহ:" />
+
+                <TextView
+                    android:id="@+id/s4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="*লা ইলাহা ইল্লাললাহু ওয়াদাহু লা শরিকা লাহু লাহুল মুল্কু ওয়া লাহুল হামদু ওয়া  হু ওয়া আলা... কুল্লি সাইয়ীন কাদীর\n*ইমাম বায়হাকী হযরত জাবের রা থেকে বর্ণনা করেছেন যে , রসুলুল্লাহ সঃ বলেছেন যে , মুসলমান আরাফার দিন সূর্য হেলে যাবার পর কেবলামুখী হয়ে\n*একশত বার লা ইলাহা ইল্লাললাহু ওয়াদাহু লা শরিকা লাহু লাহুল মুল্কু ওয়া লাহুল হামদু ওয়া   হু ওয়া আলা... কুল্লি সাইয়ীন কাদীর \n*একশত বার সুরা ইখলাছ এবং একশত বার দরুদ পড়লে আল্লাহপাক তাকে ক্ষমা করে দিবেন এবং তার সকল দাবি কবুল করবেন ।\n*আবদুল্লাহ ইবনে ওমর রা বর্ণিতে তিনি আসরের নামাযের পর হাত তুলে    আল্লাহু আকবারু ওয়া লিল্লাহিল হামদু লা শরিকা লাহু লাহুল মুল্কুল হামদু\n*তারপর নিচের দোয়াটি পড়তেন আল্লাহুমমা ইহিদিনী বিল হুদা...ওয়া নাকনী. বিত তাকওয়া. ওয়াগফিরলী ফিল আখীরাতি ওয়াল উলা\n"/>
+                <TextView
+                    android:id="@+id/m1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="আরাফা থেকে মুযদিলাফা রওয়ানা:" />
+
+                <TextView
+                    android:id="@+id/m2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text=">৯তারিখ সূর্য অস্ত যাবার সাথে সাথে মুযদিলাফায় উদ্দেশ্যে রওয়ানা দিতে হবে\n>পথে আল্লাহর যিকির ও তালবিয়া পাঠ করবে\n>মাগরিবের নামাজ আরাফায় বা রাস্তায় পড়া জায়েজ নয়\n>মুযদিলাফায় পৌঁছে মাগরিব ও এশার নামাজ এক আজান ও ইকামতে পড়বে\n>অর্থাৎ মাগরিবের ফরয নামায পড়ার পর ইসার ফরয নামাজ পড়বে\n>একা হলেও মাগরিব ও এশার তদ্রুপভাবে পড়বে\n>মুযদিলাফায় জাগ্রত থাকা সুন্নতে মুয়াকাদ্দা ও এবাদতে মগ্ন থাকা মুস্তাহাব\n>মুযদিলাফায় অবস্থান না করলে দম ওয়াজীব হয় অর্থাৎ কোরবানি
+
+\n"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/m3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/mat_light_blue_a700"
+                    android:textColor="@color/colorPrimary"
+                    android:text="১০ তারিখ বা ৩য় দিন" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/am4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text=">ফজরের কিছু সময় মুযদিলাফায় অবস্থান ওয়াজীব\n>যে কোন জায়গায় অবস্থান করা যায় , তবে কুযাহ পাহাড়ের নিকট উত্তম\n>ওয়াদিয়ে মুহাসসার ব্যতীত\n>কারন এখানে আসহাবে ফিলের উপর আযাব অবতীর্ণ হয়েছিল\n"/>
+
+                     <TextView
+                    android:id="@+id/m5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="মুযদিলাফা থেকে মিনায় গমন:" />
+                <TextView
+                    android:id="@+id/am6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text=">১০ তারিখ সূর্য উদয় হবার কিছুক্ষণ পর মুযদিলাফা থেকে মিনায় রওয়ানা দিতে হবে\n>রমীর জন্য কংকর বা পাথর মুজদিলাফা থেকে কুড়িয়ে নেওয়া উত্তম\n>অন্য জায়গা থেকে নেওয়াও জায়েজ\n>মিনায় পৌঁছে দুটি জামরা অতিক্রম করে আকাবা জামারায় গিয়ে সাতটি কংকর নিক্ষেপ করবে\n>প্রথম কঙ্কর নিক্ষেপের সাথে সাথে তালবিয়া বন্ধ হয়ে যাবে\n>প্রত্যেক কঙ্কর নিক্ষেপের সময় তাকবীর ও এই দোয়া পড়বে\n>তাকবীরের পরিবর্তে সুবহানআল্লাহি, লাহ ইলাহা ইল্লালাহি পাঠ করা জায়েজ\n>জামরা আকবায় সূর্য উদয় থেকে অস্ত যাওয়া পর্যন্ত রমী করতে হবে\n>জামারা আকাবায় রমী করার পর কোরবানি করতে হবে এবং ওয়াজিব\n>কোরবানির পর মাথা মুণ্ডন বা  চুল কাটতে হবে\n"/>
+                <TextView
+                    android:id="@+id/m7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text="তওয়াফে জিয়ারত:" />
+
+                <TextView
+                    android:id="@+id/am8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                   android:text=">মিনায় রমী, পশু যবাহ এবং চুল মুণ্ডন করার পর মক্কা মুয়াজ্জমায় গিয়ে তওয়াফে জিয়ারত করতে হবে\n>তওয়াফ করা ফরয সমুহের অন্যতম একটি\n>১০ই জিলহজ্জের সুবেহ সাদেকের পরই তওয়াফ করা যায়\n>১০.,১১,১২ তারিখেও তওয়াফ করা যায়\n>তবে ১২ই জিলহজ্জের সূর্য অস্ত যাবার পর সম্ভব নয় \n>১০ তারিখ তওয়াফের পর মিনায় চলে আসবে\n>তওয়াফে জিয়ারতের পর স্বামী স্ত্রীর স্বাভাবিক সম্পর্ক বৈধ\n"/>
+                <TextView
+                    android:id="@+id/m9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:background="@drawable/design"
+                    android:textColor="@color/mat_purple_900"
+                    android:text=" সায়ীর আলোচনা:" />
+                <TextView
+                    android:id="@+id/am10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text=">সাফা ও মারওয়া মাঝখানে সাত বার আসা যাওয়াকে সায়ী বলে\n>এটা হজ্জ ও ওমরার উভয়ের মধ্যে ওয়াজিব\n>সায়ী করার সময় প্রত্যেক চক্কর খুব গুরুত্ব সহকারে দিবে ও যিকর করবে\n>হাদীসে আছে জামারাত এ রমী বায়তুল্লাহে তওয়াফ ও সাফা মারওয়ার সায়ী আল্লাহর যিকরের জন্য, অন্য কিছুর জন্য নয়\n>সাফা মারওয়ার জন্য বিশেষ কোন দোয়া নাই\n>সায়ী হতে ফারাগ হবার জন্য দু রাকাত নামায পড়া মুস্তাহাব বা উত্তম\n>সাফা মারওয়ার উচুতে উঠলে কাবা ঘর দৃষ্টিতে আসলে হাত উঠাবে এবং তিনবার আল্লাহু আকবর বলবে \n>আল্লাহপাকের একত্ববাদের প্রশংসা করবে ও দোয়া করবে\n>লা ইলাহা ইল্লাললাহু ওয়াদাহু লা শরিকা লাহু লাহুল মুল্কু ওয়া লাহুল হামদু ওয়া  হু ওয়া আলা... কুল্লি সাইয়ীন কাদীর\n>তারপর দরুদ পাঠ করবে এবং যা খুশী দোয়া করবে\n>সবুজ রঙ্গের জায়গাটির ছয় হাত দূর থেকে পুরুষগণ দৌড় দিবে\n>দৌড় অবস্থায় আল্লাহুম মাগফির ওয়ার হাম আংতাল আজ্জুল আকরাম\n>শেষ সবুজ দাগের নিকট গিয়ে দৌড় বন্দ করে দিবে\n>স্বাভাবিকভাবে চলবে দোয়া দরুদ করবে \n"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/m11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/mat_light_blue_a700"
+                    android:textColor="@color/colorPrimary"
+                    android:text="১১ই জিলহজ্জ বা ৪র্থ দিন " />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/am12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+
+                    android:gravity="center|left"
+                    android:textStyle="normal"
+                    android:background="@drawable/design"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text=">১১তারিখে জামরা উলায় সাতটি কঙ্কর মারবে\n>রমী করার উত্তম সময় সূর্য হেলে যাবার পর থেকে অস্তমিত হওয়া পর্যন্ত\n>উল্লেখ্য যে, ১১ তারিখে নারী ও দুর্বল লোক রাতে রমী করতে পারবে\n>রমী করা শেষ করে ভীর থেকে সরে এসে হাত তুলে তাকবীর , তাহলীল , দরুদ , ইস্তেগফার ও বিনম্র চিত্তে দোয়া করবে , এসময় দোয়া কবুলের সময়\n>এর পর জামরা উসতায় আসবে এবং সাতটি কংকর মারবে\n>রমী মারা শেষ করে ভীর থেকে সরে এসে হাত তুলে তাকবীর , তাহলীল , দরুদ , ইস্তেগফার   ও বিনম্র চিত্তে দোয়া করবে\n> এসময় দোয়া কবুলের সময়\n>সবশেষে জামারা আকাবায় আসবে এবং সাতটি কংকর মারবে\n>এখানে দোয়ার জন্য দাঁড়াবে না , তবে আসার পথে দোয়া করতে থাকবে\n>এখানে দোয়ার জন্য দাঁড়ানো হাদীস দ্বারা প্রমানীত নয়\n>এবার মিনায় এসে দোয়া দরুদ তিলাওয়াত অবস্থায় থাকবে\n>অযথা দুনিয়াবী আলাপ আলোচনা ও ফালতু গল্প গুজব করবে না\n"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/m14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/mat_light_blue_a700"
+                    android:textColor="@color/colorPrimary"
+                    android:text="১২ই জিলহজ্জ বা ৫ম দিন" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/am15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="3dp"
+
+                android:gravity="center|left"
+                android:textStyle="normal"
+                android:background="@drawable/design"
+                android:textColor="@color/black_semi_transparent"
+               android:text=">১২ই জিলহজ্জ তারিখ তিনটি জামরাই রমী করবে \n> তিনটি জামারায় সাতটি কঙ্কর মারবে\n>১২ তারিখ সূর্য হেলে যাবার পর থেকে সূর্য অস্তমিত হওয়া পর্যন্ত কঙ্কর মারতে হবে\n>( যদি কোন কারনে কোরবানি বা তওয়াফ না করা হয় তবে আজকেই করবে এবং সূর্য অস্তমিত হবার পূর্বেই করবে এবং ১২ তারিখের রমী তিনটি করবে )\n"/>
+            <TextView
+                android:id="@+id/m13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="3dp"
+
+                android:gravity="center|left"
+                android:textStyle="bold"
+                android:background="@drawable/design"
+                android:textColor="@color/mat_purple_900"
+                android:text="১৩ই জিলজ্জ:" />
+
+            <TextView
+                android:id="@+id/am16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="3dp"
+
+                android:gravity="center|left"
+                android:textStyle="normal"
+                android:background="@drawable/design"
+                android:textColor="@color/black_semi_transparent"
+               android:text=">১২ তারিখের রমী করার পর মীনায় অবস্থান করা না করার দুটিরই অবকাস আছে\n>তবে ১২ তারিখ মক্কায় চলে গেলে সূর্য অস্তমিত হওয়ার পূর্বে যেতে হবে\n>সূর্য অস্তমিত হবার পর মক্কায় যাওয়া মাকরুহ\n> ( যদি ১২ তারিখ রাতে মিনায় অবস্থান করা হয় তাহলে ১৩ তারিখ সুবেহ সাদেকের সময় রমী করে মক্কায় রওয়ানা দিতে হবে )\n"/>
+            <TextView
+                android:id="@+id/m17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="3dp"
+
+                android:gravity="center|left"
+                android:textStyle="bold"
+                android:background="@drawable/design"
+                android:textColor="@color/mat_purple_900"
+                android:text=" বিদায়ী তওয়াফ:" />
+            <TextView
+                android:id="@+id/am17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="3dp"
+
+                android:gravity="center|left"
+                android:textStyle="normal"
+                android:background="@drawable/design"
+                android:textColor="@color/black_semi_transparent"
+               android:text=">মক্কা থেকে বিদায় প্রাক্কালে বিদায়ী তওয়াফ করা ওয়াজিব\n>ইহার জন্য নিয়ত জরুরী নয়\n>বিদায়ী তয়াফের দুই রাকাত নামাজ পরবে\n>অতপর কেবলামুখী হয়ে যমযমের পানি পান করবে\n>বিশেষ কোন দোয়া নাই , যা ইচ্ছে দোয়া করবে\n>মক্কা থেকে চলে যাবার দুঃখ ব্যাদনা আক্ষেপ ও আফসোস প্রকাশ করবে ।"/>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

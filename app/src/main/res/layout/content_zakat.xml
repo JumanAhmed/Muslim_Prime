@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.listapplication.Zakat"
+    tools:showIn="@layout/activity_zakat">
+
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/mat_light_green_500"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay1"
+        android:layout_above="@+id/lay3"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/tott"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:text="মোট যাকাতঃ  "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tott"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <com.pihash.flo.FloatingActionMenu
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:layout_above="@+id/lay3"
+        android:paddingLeft="10dp"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_fab_label="মেনু">
+
+        <com.pihash.flo.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gold"
+            fab:fab_colorNormal="@color/mat_teal_300"
+            fab:fab_colorPressed="@color/mat_teal_200"
+            fab:fab_colorRipple="@color/mat_teal_200"
+            fab:fab_shadowColor="@color/mat_teal_100"
+            fab:fab_size="mini"
+            fab:fab_label="সোনা"/>
+
+        <com.pihash.flo.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/silver"
+            fab:fab_colorNormal="@color/mat_grey_500"
+            fab:fab_colorPressed="@color/mat_grey_400"
+            fab:fab_colorRipple="@color/mat_grey_400"
+            fab:fab_shadowColor="@color/mat_grey_300"
+            fab:fab_size="mini"
+            fab:fab_label="রুপা" />
+
+        <com.pihash.flo.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/taka"
+            fab:fab_colorNormal="@color/mat_indigo_600"
+            fab:fab_colorPressed="@color/mat_indigo_500"
+            fab:fab_colorRipple="@color/mat_indigo_500"
+            fab:fab_shadowColor="@color/mat_indigo_100"
+            fab:fab_size="mini"
+            fab:fab_label="নগদ টাকা" />
+
+    </com.pihash.flo.FloatingActionMenu>
+
+
+
+
+
+</RelativeLayout>

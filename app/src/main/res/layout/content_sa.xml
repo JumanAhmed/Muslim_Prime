@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pihash.muslimprime.SaActivity"
+    tools:showIn="@layout/activity_sa">
+
+    <FrameLayout
+        android:id="@+id/layy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/rlayy"
+
+        android:layout_marginBottom="2dp"
+        android:weightSum="0">
+
+
+        <TextView
+            android:id="@+id/tx55"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/img55"
+            android:background="#03A9F4"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/black_semi_transparent"
+            android:text="Muslim Prime"
+
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_below="@+id/layy1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/rlay"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+
+
+            <LinearLayout
+                android:id="@+id/lay3"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay2"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#2196F3"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img5"
+                        android:background="#1565C0"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-ফাতিহা"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay3"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#7E57C2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:background="#673AB7"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আন-নাস"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay4"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay1"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#E57373"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img4"
+                        android:background="#F44336"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-ফালাক"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay5"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay4"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#7E57C2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img6"
+                        android:background="#673AB7"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-ইখলাস"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay7"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay5"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#2196F3"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img7"
+                        android:background="#1565C0"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-লাহাব"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay8"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay7"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img8"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#E57373"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img8"
+                        android:background="#F44336"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আন-নাসর "
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay9"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay8"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img9"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#2196F3"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img9"
+                        android:background="#1565C0"
+                        android:gravity="center"
+                        android:text="সূরা আল-কাফিরূন"
+                        android:textSize="20dip"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay10"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay9"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img10"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#7E57C2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img10"
+                        android:background="#673AB7"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-কাউসার"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay11"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay10"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img11"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#7E57C2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tx11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img11"
+                        android:background="#673AB7"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-মাউন"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay12"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/lay10"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img12"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="#E57373"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_directions_white_18dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tx12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:layout_toRightOf="@+id/img12"
+                        android:background="#F44336"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="সূরা আল-ফিল"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

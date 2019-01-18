@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.listapplication.Hades"
+    tools:showIn="@layout/activity_hades">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="হাদিসে রাসুল (সা.)"
+                android:background="@drawable/mybutton"
+                android:textSize="28dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:id="@+id/textVieedc3" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#DCE775"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1.আবূ হুরাইরাহ (রাযিঃ) হতে বর্ণিত আছে, তিনি বলেন, রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) বলেছেনঃ এক মুসলিমের উপর অন্য মুসলিমের পাঁচটি হক (অধিকার) রয়েছে। সালামের উত্তর দেয়া, রোগাক্রান্তকে দেখতে যাওয়া, জানাযায় শরীক হওয়া, দাওয়াত গ্রহণ করা এবং হাঁচির জবাব দেয়া (ইয়ারহামুকাল্লাহ বলা)।\n[বুখারীঃ ১২৪০, মুসলিমঃ ২১৬২] "
+            android:background="#E0F7FA"
+            android:textSize="20dp"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|left"
+            android:id="@+id/textViee3" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2.আয়েশা (রাঃ) হতে বর্ণিত, তিনি বলেন, (রামাদানের) শেষ দশক প্রবেশ করলে আল্লাহ্‌র রাসূল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) নিজে রাতে জাগতেন এবং পরিবার-পরিজনদেরকেও জাগাতেন। আর (ইবাদতের জন্য) কোমর বেঁধে নিতেন।\n(বুখারী ২০২৪, মুসলিম ১০৭৪) "
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="3.আবূ আব্দুল্লাহ রাদিয়াল্লাহু আনহু হতে বর্ণিত, তিনি বলেন, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, তিন জনের দোআ আল্লাহর দরবারে সন্দেহাতীতভাবে কবুল হয় (১) নির্যাতিত ব্যক্তির দোআ, (২) মুসাফিরের দোআ এবং (৩) ছেলের জন্য মাতা-পিতার বদ-দোআ।\nআবূ দাউদের বর্ণনায় ছেলের জন্য শব্দগুলি নেই। (অর্থাৎ তাতে আছে, পিতা-মাতার দোআ।)\n[আবু দাউদ ১৫৩৬, তিরমিজি ১৯০৫, ৩৪৪৮, ইবন মাজাহ ৩৮৬২, আহমদ ৭৪৫৮, ৮৩৭৫, ৯৮৪০, ১০৩৩০, ১০৩৯২]"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4.আয়েশা (রাঃ) হতে বর্ণিত, তিনি বলেন, একদা আমি নিবেদন করলাম, হে আল্লাহ্‌র রাসুল! আপনি বলুন, যদি আমি (ভাগ্যক্রমে) শবে ক্বদর জেনে নিই, তাহলে তাতে কোন (দোয়া) পড়ব? তিনি বললেন, এই দোয়া, আল্লাহুম্মা ইন্নাকা আফুউবুন তুহিব্বুল আফওয়া ফা' ফু আন্নী। অর্থাৎ, হে আল্লাহ্‌! নিশ্চয়ই তুমি ক্ষমাশীল, ক্ষমা ভালবাসো। সুতরাং তুমি আমাকে ক্ষমা করে দাও।\n(তিরমিযী ৩৫১৩, হাসান সহীহ)"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="5.ইবনে উমার (রাদিয়াল্লাহু আনহুমা) থেকে বর্ণিত, আল্লাহর রসূল সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেন, \nএকাকীর নামায অপেক্ষা জামাতের নামায সাতাশ গুণ উত্তম।\n[সহীহুল বুখারী ৬৪৫, মুসলিম ৬৫০, তিরমিযী ২১৫, নাসায়ী ৮৩৭, ইবনু মাজাহ ৭৮৯, আহমাদ ৪৬৫৬, ৫৩১০, ৫৭৪৫, ৫৮৮৫, ৬৪১৯, মুওয়াত্তা মালিক ২৯০]"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="6.আবূ মুসা রাদিয়াল্লাহু আনহু হতে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, যে ব্যক্তি দুই ঠাণ্ডা নামায পড়ে, সে জান্নাতে প্রবেশ করবে।\n [সহীহুল বুখারী ৫৭৪, মুসলিম ৬৩৫, আহমাদ ১৬২৮৯, দারেমী ১৪২৫]"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text7" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="7.আবূ হুরাইরা রাদিয়াল্লাহু আনহু হতে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, “নামাযের প্রতীক্ষা যতক্ষণ (কাউকে) আবদ্ধ রাখে, ততক্ষণ সে আসলে নামাযের মধ্যেই থাকে; যখন নামায ছাড়া অন্য কোনো কিছু (তাকে) তার স্বীয় পরিবারের কাছে ফিরে যেতে বাধা না দেয়।” (অর্থাৎ নামাযের উদ্দেশ্যে যতক্ষণ বসে থাকে, পুণ্য-প্রাপ্তির দিক দিয়ে সে পরোক্ষভাবে নামাযেই প্রবৃত্ত থাকে।)\n[সহীহুল বুখারী ৬৫৯, ১৭৬, ৪৪৫, ৪৭৭, ৬৪৭, ৬৪৯, ২১১৯, ৩২২৯, ৪৭১৭, মুসলিম ৬৪৯, তিরমিযী ২১৫, ২১৬, নাসায়ী ৭৩৩,৭৩৮, আবূ দাউদ ৪৬৯, ৪৭০, ৪৭১, ৫৫৬, ইবনু মাজাহ ৭৮৭, আহমাদ ৭১৪৫, ৭৩৬৭, ৭৩৮২, ৭৪৯৮, ৭৫৩০, ৭৫৫৭, ৭৫৫৯, ৭৮৩২, মুওয়াত্তা মালিক ২৯১, ৩৮২, ৩৮৩, ৩৮৫, দারেমী ১২৭৬]"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text8" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="8.উমার ইবনে খাত্তাব রাদিয়াল্লাহু আনহু হতে বর্ণিত, নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, “পরিপূর্ণরূপে ওযু করে যে ব্যক্তি এই দো‘আ বলবে, ‘আশহাদু আল লা ইলা-হা ইল্লাল্লা-হু অহদাহু লা শারীকা লাহ, অ আশহাদু আন্না মুহাম্মাদান আবদুহু অরাসূলুহ।’ অর্থাৎ আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ছাড়া অন্য কোনো সত্য উপাস্য নেই। তিনি একক, তাঁর কোন অংশী নেই এবং আমি আরও সাক্ষ্য দিচ্ছি যে, মুহাম্মদ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম তাঁর দাস ও প্রেরিত দূত (রসূল)। তার জন্য জান্নাতের আটটি দরজা খুলে দেওয়া হবে, যে দরজা দিয়ে ইচ্ছা তাতে প্রবেশ করবে।”\n[মুসলিম ২৩৪, তিরমিযী ৫৫, নাসায়ী ১৪৮, ১৫১, আবূ দাউদ ১৬৯, ৯০৬, ইবনু মাজাহ ৪৭০, আহমাদ ১৬৯১২, ১৬৯৪২, ১৬৯৯৫]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text9" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="9.আবূ হুরাইরা রাদিয়াল্লাহু আনহু হতে বর্ণিত, নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, “লোকেরা যদি জানত যে, আযান দেওয়া ও নামাযের প্রথম সারিতে দাঁড়াবার কি মাহাত্ম্য আছে, অতঃপর (তাতে অংশগ্রহণের জন্য) যদি লটারি ব্যতিরেকে অন্য কোনো উপায় না পেত, তবে তারা অবশ্যই সে ক্ষেত্রে লটারির সাহায্য নিত। (অনুরূপ) তারা যদি জানত যে, আগে আগে মসজিদে আসার কি ফযীলত, তাহলে তারা সে ব্যাপারে প্রতিযোগিতা করত। আর তারা যদি জানত যে, এশা ও ফজরের নামায (জামাতে) পড়ার ফযীলত কত বেশি, তাহলে মাটিতে হামাগুড়ি দিয়ে বা পাছা ছেঁচড়ে আসতে হলেও তারা অবশ্যই আসত।”\n[মুসলিম ৩৮৭, ইবনু মাজাহ ৭২৫, আহমাদ ১৬৪১৯, ১৬৪৫৩]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text10" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="10.আবূ হুরাইরা রাদিয়াল্লাহু আনহু হতে বর্ণিত, তিনি রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম-কে এ কথা বলতে শুনেছেন, “আচ্ছা তোমরা বল তো, যদি কারোর বাড়ির দরজার সামনে একটি নদী থাকে, যাতে সে প্রতিদিন পাঁচবার করে গোসল করে, তাহলে তার শরীরে কোন ময়লা অবশিষ্ট থাকবে কি?” সাহাবীগণ বললেন, ‘(না,) কোন ময়লা অবশিষ্ট থাকবে না।’ তিনি বললেন, “পাঁচ অক্তের নামাযের উদাহরণও সেইরূপ। এর দ্বারা আল্লাহ পাপরাশি নিশ্চিহ্ন করে দেন।”\n[সহীহুল বুখারী ৫২৬, ৪৬৮৭, মুসলিম ২৭৬৩, তিরমিযী ৩১১২, ৩১১৪, আবূ দাউদ ৪৪৬৮, ইবনু মাজাহ ১৩৯৮, ৪২৫৪, আহমাদ ৩৬৪৫, ২৩৮৪৪, ৪০৮৩, ৪২৩৮, ৪২৭৮, ৪৩১৩]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text11" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="11.আবূ মুসা আশআরী রাদিয়াল্লাহু আনহু হতে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, “এই কুরআনের প্রতি যত্ন নাও। (অর্থাৎ নিয়মিত পড়তে থাক ও তার চর্চা রাখ।) সেই মহান সত্তার কসম, যার হাতে মুহাম্মদের জীবন আছে, উট যেমন তার রশি থেকে অতর্কিতে বের হয়ে যায়, তার চেয়ে অধিক অতর্কিতে কুরআন (স্মৃতি থেকে) বের হয়ে (বিস্মৃত হয়ে) যায়।” (অর্থাৎ অতিশীঘ্র ভুলে যাবার সম্ভাবনা থাকে।)\n[মুসলিম ৭৯১, আহমাদ ১৯০৫২, ১৯১৮৬]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text12" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12.আবূ মূসা আশ‘আরী রাদিয়াল্লাহু ‘আনহু হতে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম যখন কোন শত্রুদলকে ভয় করতেন তখন এই দো‘আ পড়তেন, ‘‘আল্লাহুম্মা ইন্না নাজ‘আলুকা ফী নুহূরিহিম অনা‘ঊযু বিকা মিন শুরূরিহিম।’’ অর্থাৎ হে আল্লাহ! আমরা তোমাকে ওদের মুখোমুখি করছি এবং ওদের অনিষ্টকারিতা থেকে তোমার নিকট পানাহ চাচ্ছি।\n [আবূ দাউদ ১৫৩৭, আহমাদ ১৯২২০]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text13" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="13.আবূ হুরাইরা রাদিয়াল্লাহু ‘আনহু হতে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেন, ‘‘সফর আযাবের অংশ বিশেষ। সফর তোমাদেরকে পানাহার ও নিদ্রা থেকে বিরত রাখে। সুতরাং যখন তোমাদের কারোর সফরের উদ্দেশ্য পূরণ হয়ে যাবে, তখন সে যেন বাড়ি ফিরার জন্য তাড়াতাড়ি করে।’’\n[সহীহুল বুখারী ১৮০৪, ৩০০১, ৫৪২৯, মুসলিম ১৯২৭, ইবনু মাজাহ ২৮৮২, আহমাদ ৭১৮৪, ৯৪৪৭, ১০০৬৮, মুওয়াত্তা মালিক ১৮৩৫, দারেমী ২৬৭০]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text14" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="14.উসমান ইবনে আফ্ফান রাদিয়াল্লাহু আনহু থেকে বর্ণিত, তিনি বলেন, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, তোমাদের মধ্যে সর্বশ্রেষ্ঠ ব্যক্তি সেই, যে নিজে কুরআন শিখে ও অপরকে শিক্ষা দেয়।\n[বুখারি ৫০২৭, ৫০২৮, তিরমিজি ২৯০৭, ২৯০৮, আবু দাউদ ১৪৫২, ইবন মাজাহ ২১১, আহমদ ৫০৭, ৪১৪, ৫০২, দারেমি ৩৩২৮]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text15" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="15.আব্দুল্লাহ ইবনে উমার রাদিয়াল্লাহু আনহু কর্তৃক বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, “দু’জনের ক্ষেত্রে ঈর্ষা করা সিদ্ধ। (১) যাকে আল্লাহ কুরআন (মুখস্থ করার শক্তি) দান করেছেন, সুতরাং সে ওর (আলোকে) দিবা-রাত্রি পড়ে ও আমল করে। (২) যাকে আল্লাহ তা‘আলা ধন-সম্পদ দান করেছেন এবং সে (আল্লাহর পথে) দিন-রাত ব্যয় করে।”\n[বুখারি ৫০২৫, ৭৫২৯, মুসলিম ৮১৫, তিরমিজি ১৯৩৬, ইবন মাজাহ ৪২০৯, আহমদ ৪৫৩৬, ৪৯০৫, ৫৫৮৬, ৬১৩২, ৬৩৬৭]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text16" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="16.আবূ উমামাহ রাদিয়াল্লাহু আনহু হতে বর্ণিত, তিনি বলেন, আমি রাসূল সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম-কে এ কথা বলতে শুনেছি যে, তোমরা কুরআন মাজীদ পাঠ কর। কেননা, কিয়ামতের দিন কুরআন, তার পাঠকের জন্য সুপারিশ-কারী হিসাবে আগমন করবে।\n[মুসলিম ৮০৪, আহমদ ২১৬৪২, ২১৬৫৩, ২১৬৮১, ২১৭১০]."
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text17" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17.ইবনে আব্বাস রাদিয়াল্লাহু আনহু হতে বর্ণিত, তিনি নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লামকে বলতে শুনেছেন যে, কোন পুরুষ যেন কোন বেগানা নারীর সঙ্গে তার সাথে এগানা পুরুষ ছাড়া অবশ্যই নির্জনতা অবলম্বন না করে। আর মাহরাম ব্যতিরেকে কোন নারী যেন সফর না করে। এক ব্যক্তি আবেদন করল, হে আল্লাহর রসূল! আমার স্ত্রী হজ্জ পালন করতে বের হয়েছে। আর আমি অমুক অমুক যুদ্ধে নাম লিখিয়েছি। তিনি বললেন, যাও, তুমি তোমার স্ত্রীর সঙ্গে হজ্জ কর।\n\nনোট : যার সাথে চিরতরে বিবাহ হারাম তাকে মাহরাম বা এগানা বলা হয়; তার সাথে সফর বৈধ। বাকী যার সাথে কোনও সময় বিবাহ বৈধ, তাকে গায়র মাহরাম বা বেগানা বলা হয়। তার সাথে সফর করা বৈধ নয়; এমনকি হজ্জের সফর হলেও নয়।\n\n[বুখারি ৩০০৬, ১৮৬২, ৩০৬১, ৫২৩৩, মুসলিম ১৩৪১, ইবন মাজাহ ২৯০০, আহমদ ১৯৩৫, ৩২২১]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text18" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="18.আবূ জাফর আব্দুল্লাহ ইবনে জাফর রাদিয়াল্লাহু আনহু বলেন, একদা রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম আমাকে সওয়ারীর উপর তাঁর পিছনে বসালেন এবং আমাকে তিনি একটি গোপন কথা বললেন, যা আমি কাউকে বলব না। আর রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম উঁচু জায়গা (দেওয়াল, ঢিবি ইত্যাদি) অথবা খেজুরের বাগানের আড়ালে মল-মূত্র ত্যাগ করা সবচেয়ে বেশি পছন্দ করতেন।’ (ইমাম মুসলিম এটিকে সংক্ষিপ্তভাবে বর্ণনা করেছেন)\n\nবারক্বানী এতে মুসলিমের সূত্রে বর্ধিত আকারে খেজুরের বাগান’ শব্দের পর বলেছেন যে, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম এক আনসারীর বাগানে প্রবেশ করে সেখানে একটা উট দেখতে পেলেন। উটটা রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লামকে দেখে ফুঁপিয়ে কাঁদতে লাগল এবং তার চোখ দিয়ে অশ্রু ঝরতে লাগল। নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম তাঁর কাছে এসে তার কুঁজে এবং কানের পিছনের অংশে হাত ফিরালেন, ফলে সে শান্ত হল। তারপর তিনি বললেন, এই উটের মালিক কে? এই উটটা কার?’’ অতঃপর আনসারদের এক যুবক এসে বলল, এটা আমার হে আল্লাহর রাসুল!’ তিনি বললেন, তুমি কি এই পশুটার ব্যাপারে আল্লাহকে ভয় করো না, আল্লাহ তোমাকে যার মালিক বানিয়েছেন? কারণ, সে আমার নিকট অভিযোগ করছে যে, তুমি তাকে ক্ষুধায় রাখ এবং (বেশি কাজ নিয়ে) ক্লান্ত করে ফেলো!’’\n\n[মুসলিম ৩৪২, ২৪২৯, আবু দাউদ ২৫৪৯, ইবন মাজাহ ২৪০, আহমদ ১৭৪৭, দারেমি ৬৬৩, ৭৫৫]"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text19" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="19.আবূ ক্বাতাদাহ রাদিয়াল্লাহু আনহু বলেন, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম যখন সফরে থাকতেন এবং রাতে বিশ্রামের জন্য কোথাও অবতরণ করতেন, তখন তিনি ডান পার্শ্বে শয়ন করতেন। আর তিনি ফজরের কিছুক্ষণ পূর্বে বিশ্রাম নিলে তার হাতটা খাড়া করে হাতের চেটোর উপর মাথা রেখে আরাম করতেন।’\n\nআলেমগণ বলেন, তিনি হাত খাড়া রেখে আরাম করতেন, যাতে গভীর নিদ্রা এসে ফজরের নামাযের ওয়াক্ত অথবা প্রথম ওয়াক্ত ছুটে না যায়।’\n[মুসলিম ৬৮৩, আহমদ ২২০৪০, ২২১২৫]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DCE775"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="20.ইবনে উমার রাদিয়াল্লাহু আনহু থেকে বর্ণিত, তিনি বলেন, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, যদি লোকেরা জানত যে, একাকী সফরে কী ক্ষতি রয়েছে; যা আমি জানি, তাহলে কোন সওয়ার একাকী সফর করত না।’’\n\n[বুখারি ২৯৯৮, তিরমিযি ১৬৭৩, ইবন মাজাহ ৩৭৬৮, আহমদ ৪৭৩৭, ৫২৩০, ৫৫৫৬, ৫৬১৮, দারেমি ২৬৭৯]\n"
+                android:background="#E0F7FA"
+                android:textSize="20dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|left"
+                android:id="@+id/text21" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

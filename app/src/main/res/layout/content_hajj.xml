@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pihash.muslimprime.Hajj"
+    tools:showIn="@layout/activity_hajj">
+
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/mat_light_green_500"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_arrow_back_white_48dp">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lay1"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/rlay"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/lay2"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/sa1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="#2196F3"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/s1"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="130dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:background="#1565C0"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="হজ্জের প্রাথমিক নিওয়মাবলি "
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay3"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/lay2"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/sa2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="#7E57C2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hn"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="130dp"
+                        android:layout_toRightOf="@+id/img2"
+                        android:background="#673AB7"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="হজ্জের পাঁচ দিন"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lay4"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/lay3"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/sa3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="#7E57C2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hn"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="130dp"
+                        android:layout_toRightOf="@+id/img3"
+                        android:background="#673AB7"
+                        android:gravity="center"
+                        android:textSize="20dip"
+                        android:text="নবী সঃ এর দেশে সফর"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

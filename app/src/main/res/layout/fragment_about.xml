@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pihash.muslimprime.FrActivity"
+    tools:showIn="@layout/activity_fr">
+
+
+
+    <FrameLayout
+        android:id="@+id/lay4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlayy"
+        android:layout_above="@+id/scrollView1"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/eve"
+            android:scaleType="fitXY" />
+
+        <DigitalClock
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:id="@+id/digitalClock"
+            android:textSize="40dp"
+            android:textColor="#FF5722"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/lay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="#fce49605"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/n1"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img1"
+                        android:background="#2f3346"
+                        android:gravity="center"
+                        android:text="নামাজ"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#FF5722"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/r1"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img2"
+                        android:background="#FF6E40"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:text="রোজা"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lay2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay1"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="#4CAF50"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/h1"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img3"
+                        android:background="#66BB6A"
+                        android:gravity="center"
+                        android:text="হজ্জ"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+                <com.pihash.ripple.RippleView
+                    android:id="@+id/rect4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:scaleType="fitCenter"
+                    ripple:rv_type="rectangle"
+                    ripple:rv_zoom="true">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="#1d75bc"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/z1"
+                        />
+
+                    <TextView
+                        android:id="@+id/tx4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img4"
+                        android:background="#5281ba"
+                        android:gravity="center"
+                        android:text="যাকাত"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </com.pihash.ripple.RippleView>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
